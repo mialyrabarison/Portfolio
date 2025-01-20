@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #323232;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.logo{
+    background-color: blueviolet;
+    font-size: 1.25rem;
+    
+
+}
+.menu{
+    background-color: aqua;
+    text-decoration: none;
+    display: flex;
+    flex-basis: 70%;
+    font-size: 1rem;
+
+    justify-content: space-around;
+
+
+}
