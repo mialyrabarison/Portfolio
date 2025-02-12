@@ -1,0 +1,17 @@
+.not-fund {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+}
+
+.not-fund img {
+    width: 35%;
+    height: 75%;
+}
+.page404 h1{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}

@@ -1,0 +1,32 @@
+.footer {
+    
+  background-color: beige;
+  padding: 2rem 0;
+
+}
+.footer .social_media {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    
+
+    
+}
+.footer .social_media a {
+    margin: 2px;
+
+}
+
+.logo img {
+  display: flex;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+.footer .datetime{
+    display: flex;
+    justify-content: center;
+ 
+
+}

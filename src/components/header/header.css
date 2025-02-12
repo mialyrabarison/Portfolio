@@ -1,25 +1,78 @@
+
+
 .navbar{
-    background-color: #323232;
+    background-color:#15213d;
     color: white;
     display: flex;
-    justify-content:space-around;
+    /* justify-content:space-around; */
+    justify-content:space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1; 
+    /* z- index position des zones de texte : arriere ou avant plan */
 
 }
 .logo{
-    background-color: blueviolet;
-    font-size: 1.25rem;
-    
-
+    background-color: none;
+    /* font-size: 1.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder; */
 }
+.logo img{
+    height: 100px;
+    width: 400px;
+}
+
 .menu{
-    background-color: aqua;
+    background-color: transparent;
     text-decoration: none;
     display: flex;
     flex-basis: 70%;
     font-size: 1rem;
-
-    justify-content: space-around;
-
-
+    margin-right: 0%;
+    justify-content: space-around; 
+    /* ease-in-out animation de drite -gauche */
+    transition: transform 1s ease-in-out; 
 }
+
+.burger{
+    display: none;
+    justify-content: space-between;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    .menu {
+        flex-direction: column;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 100%;
+    background-color: transparent;
+    /* position hors de l ecran si 100% */
+    transform: translateX(100%);
+    background-color:#ADADAD;
+    
+    }
+    .burger{
+        display: flex;
+    }
+    .menu.open{
+        transform: translateX(0);
+    }
+    
+}
+
+a{
+    color: #f4ebd0;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ffbd39;
+}
+
+
+ 

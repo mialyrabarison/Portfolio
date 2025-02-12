@@ -1,0 +1,295 @@
+.about {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 25px;
+
+}
+.talent-skills {
+  /* padding: 1px; */
+  font-size: 1.5em;
+}
+h1 {
+  color: #ffbd39;
+  font-weight: 400;
+  font-size: 3em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5%;
+}
+
+.profil {
+  text-align: center;
+  width: 40%;
+  padding: 50px;
+  align-items: end;
+  background-color: transparent;
+}
+#resume {
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+#RABARISON {
+  color: white;
+  animation: linear;
+  animation-fill-mode: both;
+  animation-duration: 10s;
+}
+.profil span {
+  color: #ffbd39;
+  font-size: 2rem;
+}
+
+.photo {
+  margin: 10px auto auto;
+  padding-bottom: 5px;
+  background-color: transparent;
+  border-radius: 25px;
+  overflow: hidden;
+  padding-top: 5px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.photo .mialy {
+  height: 400px;
+  width: 300px;
+  border-radius: 15px;
+  border-width: 15px;
+  border: 20px;
+  border-color: #ffbd39;
+}
+
+/* si class = css .nom-class
+si  id = css #non-id
+si balise css= nom-balise*/
+.Achievment {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: transparent;
+  gap: 20px;
+  align-items: center;
+}
+.my-new-creation{
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.my-new-creation input, .my-new-creation button {
+  max-width: 100%;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+}
+
+.Achievment .creativity {
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
+.creation {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+
+}
+.creation:hover{
+  box-shadow: 7px 7px 0px black;
+  /* METTRE OMBRE 1er droite et gauche, 2eme: haut et bas, 3 eme flou */
+}
+.modal-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.creation p {
+  color: #f4ebd0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.creation img {
+  height: 250px;
+  width: 250px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefefe;
+  margin: 2% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  gap: 5px;
+  
+}
+
+.modal-content h1{
+  font-size: 2rem;
+}
+.odal-content p{
+  font-size: 1rem;
+}
+.modal-content img{
+ height: 100%;
+ width: 100%;
+ overflow: hidden;
+}
+.modal-content ul{
+  text-align: left;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Achievment .creativity .creation {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+@media (max-width: 945px) {
+  .Achievment .creativity {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  .about .profil {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: center;
+  }
+  .about {
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  .about.photo {
+    width: 100%;
+  }
+}
+.message {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+}
+/* .message .form {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+} */
+
+.message .form {
+  border: 5px;
+  border-color: black;
+}
+.form .bouton {
+  display: flex;
+  /* background-color: #ec0b0b; */
+  width: 100%;
+  justify-content: center;
+}
+form {
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+  width: 100%;
+  padding: 5px;
+  /* border: 3px solid #ec0b0b; */
+  /* margin-left: 80px; */
+}
+
+.form-action {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: flex-start;
+  padding-inline: 25px;
+  gap: 30px;
+  font-size: 1.25rem;
+  text-align: left;
+  width: 85%;
+  color: white;
+}
+/* .form-action label {
+  color: aqua;
+} */
+.form-action input {
+  border-radius: 20px;
+  text-align: center;
+}
+/* From Uiverse.io by Wendell47 */
+/* From Uiverse.io by Spacious74 */
+.button {
+  cursor: pointer;
+  border: solid 4px #161616;
+  border-top: none;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 4px 10px #00000062, 0px 10px 40px -10px #000000a6,
+    0px 12px 45px -15px #00000071;
+  transition: all 0.3s ease;
+}
+.inner {
+  padding: 12px 30px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 450;
+  letter-spacing: 1px;
+  border-bottom: solid 3px #ffbd39;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ffbd39, #000);
+  color: #fff;
+  text-shadow: 1px 1px #000, 0 0 9px #fff;
+}
+
+.button:active {
+  box-shadow: none;
+}
