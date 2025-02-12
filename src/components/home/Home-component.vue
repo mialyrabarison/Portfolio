@@ -213,9 +213,9 @@
                 </li>
                 <li>
                   <a
-                    href="https://mialyrabarison.github.io/Dynamiser-Commentaire/"
+                    href="https://portfolio-efq2.onrender.com/"
                     target="_blank"
-                    >Lien sur github
+                    >Lien sur portfolio
                   </a>
                 </li>
               </ul>
