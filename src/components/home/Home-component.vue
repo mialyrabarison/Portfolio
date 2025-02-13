@@ -278,12 +278,12 @@
             />
           </div>
           <div class="form-action">
-            <label for="creation date">Date de création</label>
+            <label for="message">Message</label>
             <input
               type="text"
-              id="creation date"
-              name="creation date"
-              placeholder="date"
+              id="message"
+              name="message"
+              placeholder="message"
             />
           </div>
           <div class="bouton">
